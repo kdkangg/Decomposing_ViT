@@ -226,7 +226,7 @@ class sae_decoder(nn.Module):
         x = self.decode(x)
         return x
 
-class Added_layer(nn.Module): #move to featue vis py
+class Added_layer(nn.Module): 
     def __init__(self, original_layer, encoder, decoder):
         super(Added_layer, self).__init__()
         self.original_layer = original_layer

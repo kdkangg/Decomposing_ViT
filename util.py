@@ -29,8 +29,6 @@ def plot_activation(vit_model, sae_model, input_image, layer_number, ratio, devi
 
     # input image
     if isinstance(input_image, torch.Tensor):
-        # Input image is already a tensor
-        # Convert it to a PIL image using transforms.ToPILImage
         input_image = transforms.ToPILImage()(input_image)
 
     # transformer model
