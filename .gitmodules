@@ -1,0 +1,3 @@
+[submodule "hugginglens"]
+path = hugginglens
+url = https://github.com/jannik-brinkmann/hugginglens.git
